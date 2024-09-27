@@ -1,3 +1,6 @@
-`npm install`
+# Chat Bot
 
-`npm run dev`
+### To setup a project run below commands:
+1. `npm install`
+2. `npm run dev`
+

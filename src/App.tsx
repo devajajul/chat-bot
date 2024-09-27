@@ -1,16 +1,9 @@
-import { useState } from "react";
-import { Button } from "antd";
-
-import ChatModal from "./components/ChatModal";
+import Chat from "./pages/Chat";
 
 function App() {
-  const [openModal, setOpenModal] = useState(true);
 
   return (
-    <>
-      <Button onClick={() => setOpenModal(true)}>Chat now</Button>
-      <ChatModal openModal={openModal} handleClose={()  => setOpenModal(false)}/>
-    </>
+    <Chat />
   );
 }
 
